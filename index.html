@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+    <title>Simple javascript Weather app</title>
+</head>
+
+<body>
+
+    <video autoplay muted loop>
+        <source src="assets/rain.mp4" type="video/mp4">
+    </video>
+    <div class="commands">
+        <span id="fahrenheit"><i class="wi wi-degrees"></i> <strong>F</strong></span>
+        <span>|</strong></span>
+        <span id="celsius"><i class="wi wi-degrees"></i> <strong>C</strong> </span>
+    </div>
+
+    <div class="speedUnitChange"><span id="kmh"> <strong>km/h</strong></span>
+        <span>|</strong></span>
+        <span id="ms"><strong>m/s</strong></span></div>
+
+
+    <section class="row">
+
+        <div class="box">
+            <div class="day">Monday</div>
+            <div class="weather">Sunny</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi  wi-day-sunny "></i></div>
+            <div class="temperature">37 <i class="wi wi-degrees"></i> </div>
+            <div class="kmh"></div>
+
+        </div>
+        <div class="box">
+            <div class="day">Tuesday</div>
+            <div class="weather">Rainy</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi wi-day-thunderstorm"></i></div>
+            <div class="temperature">22 <i class="wi wi-degrees"></i> </div>
+
+        </div>
+        <div class="box">
+            <div class="day">Wednesday</div>
+            <div class="weather">Rainy-Windy</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi wi-day-rain-wind"></i></div>
+            <div class="temperature">20 <i class="wi wi-degrees"></i> </div>
+
+        </div>
+        <div class="box">
+            <div class="day">Thursday</div>
+            <div class="weather">Cloudy</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi wi-day-cloudy"></i></div>
+            <div class="temperature">17 <i class="wi wi-degrees"></i> </div>
+
+        </div>
+        <div class="box">
+            <div class="day">Friday</div>
+            <div class="weather">Sunny-Windy</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi wi-day-light-wind"></i></div>
+            <div class="temperature">25 <i class="wi wi-degrees"></i> </div>
+
+        </div>
+
+        <div class="box">
+            <div class="day">Saturday</div>
+            <div class="weather">Snow</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi wi-day-snow"></i></div>
+            <div class="temperature">-3 <i class="wi wi-degrees"></i> </div>
+
+        </div>
+
+        <div class="box">
+            <div class="day">Sunday</div>
+            <div class="weather">Cloudy-Windy</div>
+            <div class="weatherIcon"><i id="size" class="fa-5x wi wi-day-cloudy-windy"></i></div>
+            <div class="temperature">14 <i class="wi wi-degrees"></i> </div>
+
+        </div>
+    </section>
+    <div class="widgetContainer">
+        <div class="widget">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

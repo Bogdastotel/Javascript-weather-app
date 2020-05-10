@@ -1,0 +1,132 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  font-family: "Signika";
+}
+
+.header {
+  width: 200px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+  min-height: 100vh;
+}
+/* .daysContainer {
+  padding-top: 200px;
+  width: 300px;
+  height: 300px;
+} */
+.row {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Signika";
+}
+
+.box {
+  margin-left: 20px;
+  background: rgb(255, 255, 255, 0.36);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.day {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.weather {
+  margin: 25px;
+}
+
+#size {
+  margin: 20px;
+  font-size: 50px !important;
+}
+
+.temperature {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.widget {
+  display: none;
+  border: 1px solid lightgreen;
+  background: rgb(255, 255, 255, 0.36);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+}
+
+.widgetContainer {
+  position: absolute;
+  top: 45%;
+  left: 44%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 10px auto;
+  font-family: "Signika";
+}
+
+.commands {
+  position: absolute;
+  display: inline-block;
+  top: 2%;
+  left: 40%;
+  padding: 5px;
+  width: 120px;
+  height: 35px;
+  margin: 5px auto 20px 10px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+.commands span {
+  padding: 5px;
+  font-family: "Signika";
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.speedUnitChange {
+  position: absolute;
+  display: inline-block;
+  top: 2%;
+  left: 48%;
+  padding: 5px;
+  width: 160px;
+  height: 35px;
+  margin: 5px auto 20px 10px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+.speedUnitChange span {
+  padding: 5px;
+  font-family: "Signika";
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.kmh {
+  display: none;
+}
