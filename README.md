@@ -1,3 +1,3 @@
 # Javascript-weather-app
 
-<img src="weather-app.png" />
+<img src="assets/weather-app.png" />
